@@ -34,7 +34,7 @@ Abra src/main/resources/application.properties e configure as credenciais do MyS
 spring.datasource.url=jdbc:mysql://localhost:3306/biblioteca_db
 spring.datasource.username=usuario
 spring.datasource.password=senha
-spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
 spring.jpa.show-sql=true
