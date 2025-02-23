@@ -5,6 +5,8 @@ Sistema de Gerenciamento de Biblioteca
 Este projeto consiste em um sistema de gerenciamento de biblioteca que permite o cadastro, consulta, edição e remoção de livros (CRUD).
 O back-end foi desenvolvido em Spring Boot (Java) e o front-end em HTML, CSS e JavaScript, rodando via Live Server no VSCode.
 
+
+
 🚀 Tecnologias Utilizadas
 
 -> Back-end: Java com Spring Boot, Spring Data JPA, Hibernate
@@ -19,9 +21,11 @@ O back-end foi desenvolvido em Spring Boot (Java) e o front-end em HTML, CSS e J
 1️⃣ Instalar Dependências
 Certifique-se de que possui o Java 17+, Maven e MySQL instalados.
 
+
 2️⃣ Configurar Banco de Dados
 Crie um banco de dados no MySQL:
    CREATE DATABASE biblioteca_db;
+
    
 3️⃣ Configurar application.properties
 Abra src/main/resources/application.properties e configure as credenciais do MySQL (usuario e senha):
@@ -48,8 +52,11 @@ No IntelliJ IDEA, execute o projeto clicando em Run ou utilizando o terminal:
 1️⃣ Abrir no VSCode
 Abra a pasta frontend/ no VSCode.
 
+
 2️⃣ Rodar o Live Server
 Com o arquivo index.html aberto, clique com o botão direito e selecione "Open with Live Server". O front-end será carregado no navegador.
+
+
 
 📌 Funcionalidades
 
